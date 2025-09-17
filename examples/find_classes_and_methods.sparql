@@ -1,0 +1,17 @@
+PREFIX code: <http://example.org/acr-diagrams/code/>
+PREFIX onto: <http://example.org/acr-diagrams/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Find all classes and their methods
+SELECT ?className ?methodName ?filePath ?startLine
+WHERE {
+  ?class a onto:Class ;
+         onto:hasName ?className ;
+         onto:hasFilePath ?filePath .
+  
+  ?method a onto:Method ;
+          onto:hasName ?methodName ;
+          onto:hasFilePath ?filePath ;
+          onto:hasStartLine ?startLine .
+}
+ORDER BY ?className ?startLine

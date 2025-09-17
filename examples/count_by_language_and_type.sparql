@@ -1,0 +1,15 @@
+PREFIX code: <http://example.org/acr-diagrams/code/>
+PREFIX onto: <http://example.org/acr-diagrams/ontology/>
+
+# Count entities by type and language
+SELECT ?language ?entityType (COUNT(?entity) as ?count)
+WHERE {
+  ?entity a ?type ;
+          onto:hasLanguage ?language .
+  
+  ?type rdfs:subClassOf* onto:CodeEntity .
+  
+  BIND(STRAFTER(STR(?type), "#") AS ?entityType)
+}
+GROUP BY ?language ?entityType
+ORDER BY ?language ?entityType

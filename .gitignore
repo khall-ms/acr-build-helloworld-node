@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.ttl
+*.jsonld
+*.rdf
+*.n3
+*.nt
+*.manifest.json
+
+# Except sample outputs in docs
+!docs/examples/*.ttl
+!docs/examples/*.jsonld
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/

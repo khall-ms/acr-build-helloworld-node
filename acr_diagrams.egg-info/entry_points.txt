@@ -1,0 +1,2 @@
+[console_scripts]
+acr-kg = acr_diagrams.cli:main

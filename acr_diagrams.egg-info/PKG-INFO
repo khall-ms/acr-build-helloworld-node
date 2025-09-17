@@ -1,3 +1,27 @@
+Metadata-Version: 2.1
+Name: acr-diagrams
+Version: 1.0.0
+Summary: Code Analysis and Knowledge Graph Generation for C# and Go
+Home-page: https://github.com/khall-ms/acr-build-helloworld-node
+Author: ACR Diagrams Team
+Author-email: acr-diagrams@example.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: full
+License-File: LICENSE.md
+
 ---
 page_type: sample
 languages:

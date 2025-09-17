@@ -1,0 +1,20 @@
+{
+  "created": "2025-09-17T05:10:58.461769",
+  "base_name": "output",
+  "exports": {
+    "turtle": {
+      "file_name": "output.ttl",
+      "format_name": "Turtle",
+      "mime_type": "text/turtle",
+      "description": "Terse RDF Triple Language",
+      "file_size": 8084
+    },
+    "json-ld": {
+      "file_name": "output.jsonld",
+      "format_name": "JSON-LD",
+      "mime_type": "application/ld+json",
+      "description": "JSON-LD format",
+      "file_size": 33283
+    }
+  }
+}

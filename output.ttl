@@ -1,0 +1,534 @@
+@prefix code: <http://example.org/acr-diagrams/code/> .
+@prefix onto: <http://example.org/acr-diagrams/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+code:UserService_CreateUser_20 a onto:Method ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 33 ;
+
+onto:hasEndLine 20 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "CreateUser" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 20 ;
+
+onto:hasType "method" .
+
+
+code:UserService_GetUser_15 a onto:Method ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 27 ;
+
+onto:hasEndLine 15 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "GetUser" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 15 ;
+
+onto:hasType "method" .
+
+
+code:UserService_IUserRepository_26 a onto:Interface ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 32 ;
+
+onto:hasEndLine 26 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "IUserRepository" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 26 ;
+
+onto:hasType "interface" .
+
+
+code:UserService_UserService_10 a onto:Method ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 50 ;
+
+onto:hasEndLine 10 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "UserService" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 10 ;
+
+onto:hasType "method" .
+
+
+code:UserService_UserService_6 a onto:Class ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 24 ;
+
+onto:hasEndLine 6 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "UserService" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 6 ;
+
+onto:hasType "class" .
+
+
+code:UserService_User_33 a onto:Class ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 17 ;
+
+onto:hasEndLine 33 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "User" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 33 ;
+
+onto:hasType "class" .
+
+
+code:UserService_User_39 a onto:Method ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 13 ;
+
+onto:hasEndLine 39 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "User" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 39 ;
+
+onto:hasType "method" .
+
+
+code:UserService_User_43 a onto:Method ;
+
+onto:belongsToFile code:file_UserService_cs ;
+
+onto:hasEndColumn 38 ;
+
+onto:hasEndLine 43 ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasModifier "public" ;
+
+onto:hasName "User" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 43 ;
+
+onto:hasType "method" .
+
+
+code:main_NewUserRepository_22 a onto:Function ;
+
+onto:belongsToFile code:file_main_go ;
+
+onto:hasEndColumn 42 ;
+
+onto:hasEndLine 22 ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "NewUserRepository" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 22 ;
+
+onto:hasType "function" .
+
+
+code:main_NewUserService_61 a onto:Function ;
+
+onto:belongsToFile code:file_main_go ;
+
+onto:hasEndColumn 56 ;
+
+onto:hasEndLine 61 ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "NewUserService" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 61 ;
+
+onto:hasType "function" .
+
+
+code:main_UserRepository_17 a onto:Struct ;
+
+onto:belongsToFile code:file_main_go ;
+
+onto:hasEndColumn 28 ;
+
+onto:hasEndLine 17 ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "UserRepository" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 17 ;
+
+onto:hasType "struct" .
+
+
+code:main_UserService_56 a onto:Struct ;
+
+onto:belongsToFile code:file_main_go ;
+
+onto:hasEndColumn 25 ;
+
+onto:hasEndLine 56 ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "UserService" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 56 ;
+
+onto:hasType "struct" .
+
+
+code:main_User_10 a onto:Struct ;
+
+onto:belongsToFile code:file_main_go ;
+
+onto:hasEndColumn 18 ;
+
+onto:hasEndLine 10 ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "User" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 10 ;
+
+onto:hasType "struct" .
+
+
+code:main_main_85 a onto:Function ;
+
+onto:belongsToFile code:file_main_go ;
+
+onto:hasEndColumn 13 ;
+
+onto:hasEndLine 85 ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "main" ;
+
+onto:hasStartColumn 1 ;
+
+onto:hasStartLine 85 ;
+
+onto:hasType "function" .
+
+
+onto:Field a owl:Class ;
+
+rdfs:label "Field" ;
+
+rdfs:comment "A field definition" ;
+
+rdfs:subClassOf onto:CodeEntity .
+
+
+onto:belongsToFile a owl:DatatypeProperty,
+
+owl:ObjectProperty ;
+
+rdfs:label "belongsToFile" ;
+
+rdfs:comment "File that contains this entity" ;
+
+rdfs:range onto:SourceFile .
+
+
+onto:contains a owl:DatatypeProperty,
+
+owl:ObjectProperty ;
+
+rdfs:label "contains" ;
+
+rdfs:comment "Contains child entity" ;
+
+rdfs:range onto:CodeEntity .
+
+
+onto:hasEndColumn a owl:DatatypeProperty ;
+
+rdfs:label "hasEndColumn" ;
+
+rdfs:comment "Ending column number" ;
+
+rdfs:range xsd:integer .
+
+
+onto:hasEndLine a owl:DatatypeProperty ;
+
+rdfs:label "hasEndLine" ;
+
+rdfs:comment "Ending line number" ;
+
+rdfs:range xsd:integer .
+
+
+onto:hasFilePath a owl:DatatypeProperty ;
+
+rdfs:label "hasFilePath" ;
+
+rdfs:comment "File path where entity is defined" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:hasLanguage a owl:DatatypeProperty ;
+
+rdfs:label "hasLanguage" ;
+
+rdfs:comment "Programming language" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:hasModifier a owl:DatatypeProperty ;
+
+rdfs:label "hasModifier" ;
+
+rdfs:comment "Access modifier (public, private, etc.)" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:hasName a owl:DatatypeProperty ;
+
+rdfs:label "hasName" ;
+
+rdfs:comment "The name of the entity" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:hasParameter a owl:DatatypeProperty ;
+
+rdfs:label "hasParameter" ;
+
+rdfs:comment "Method/function parameter" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:hasParent a owl:DatatypeProperty,
+
+owl:ObjectProperty ;
+
+rdfs:label "hasParent" ;
+
+rdfs:comment "Parent entity (for nested entities)" ;
+
+rdfs:range onto:CodeEntity .
+
+
+onto:hasReturnType a owl:DatatypeProperty ;
+
+rdfs:label "hasReturnType" ;
+
+rdfs:comment "Method/function return type" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:hasStartColumn a owl:DatatypeProperty ;
+
+rdfs:label "hasStartColumn" ;
+
+rdfs:comment "Starting column number" ;
+
+rdfs:range xsd:integer .
+
+
+onto:hasStartLine a owl:DatatypeProperty ;
+
+rdfs:label "hasStartLine" ;
+
+rdfs:comment "Starting line number" ;
+
+rdfs:range xsd:integer .
+
+
+onto:hasType a owl:DatatypeProperty ;
+
+rdfs:label "hasType" ;
+
+rdfs:comment "The type of the entity" ;
+
+rdfs:range rdfs:Literal .
+
+
+onto:Interface a owl:Class ;
+
+rdfs:label "Interface" ;
+
+rdfs:comment "An interface definition" ;
+
+rdfs:subClassOf onto:CodeEntity .
+
+
+onto:Class a owl:Class ;
+
+rdfs:label "Class" ;
+
+rdfs:comment "A class definition" ;
+
+rdfs:subClassOf onto:CodeEntity .
+
+
+onto:Function a owl:Class ;
+
+rdfs:label "Function" ;
+
+rdfs:comment "A function definition" ;
+
+rdfs:subClassOf onto:CodeEntity .
+
+
+onto:SourceFile a owl:Class ;
+
+rdfs:label "SourceFile" ;
+
+rdfs:comment "A source code file" .
+
+
+onto:Struct a owl:Class ;
+
+rdfs:label "Struct" ;
+
+rdfs:comment "A struct definition" ;
+
+rdfs:subClassOf onto:CodeEntity .
+
+
+onto:Method a owl:Class ;
+
+rdfs:label "Method" ;
+
+rdfs:comment "A method definition" ;
+
+rdfs:subClassOf onto:CodeEntity .
+
+
+code:file_main_go a onto:SourceFile ;
+
+onto:hasFilePath "samples/main.go" ;
+
+onto:hasLanguage "Go" ;
+
+onto:hasName "main.go" .
+
+
+code:file_UserService_cs a onto:SourceFile ;
+
+onto:hasFilePath "samples/UserService.cs" ;
+
+onto:hasLanguage "C#" ;
+
+onto:hasName "UserService.cs" .
+
+
+onto:CodeEntity a owl:Class ;
+
+rdfs:label "CodeEntity" ;
+
+rdfs:comment "Base class for all code entities" .
+

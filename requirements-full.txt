@@ -1,0 +1,6 @@
+# Full requirements including optional tree-sitter dependencies
+rdflib>=7.0.0
+click>=8.0.0
+tree-sitter>=0.20.0
+tree-sitter-csharp>=0.20.0
+tree-sitter-go>=0.20.0
